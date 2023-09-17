@@ -1,6 +1,6 @@
 # CF_SQL
 
-#SQL queries created durning the CareerFoundry DA course
+#SQL queries created during the CareerFoundry DA course
 
 #The code and queries youl'll find here relate to a fictitious video rental company called Rockbuster. 
 
@@ -27,7 +27,7 @@ rental_duration
 
 ORDER BY SUM (amount) DESC LIMIT 5"					
 					
-# Rental by Genre					
+# Rental Volume by Genre					
 					
 "SELECT COUNT (rental_id), 
 name
@@ -48,7 +48,7 @@ name
 
 ORDER BY COUNT (rental_id) DESC LIMIT 10"					
 					
-# Top ten revenue movie title					
+# Top ten revenue movie titles					
 					
 "SELECT SUM (amount), 
 title
